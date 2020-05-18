@@ -30,3 +30,9 @@ let urlDB = process.env.NODE_ENV === 'dev' ?
     'mongodb://localhost:27017/cafe' : process.env.MONGO_URI;
 
 process.env.URLDB = urlDB;
+
+
+//===============
+//Google Client ID
+//===============
+process.env.CLIENT_ID = process.env.CLIENT_ID || '494068384023-3a2hm4nsc80rr7465e1ke1v7cqaj8rhr.apps.googleusercontent.com'
